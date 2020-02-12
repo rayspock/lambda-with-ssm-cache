@@ -2,8 +2,8 @@ service: lambda-config
 
 provider:
   name: aws
-  stage: stg
-  region: us-east-1
+  stage: ${env:STAGE}
+  region: ${env:REGION}
   runtime: nodejs10.x
   timeout: 60
   apiName: lambda-config-${self:provider.stage}

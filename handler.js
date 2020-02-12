@@ -4,7 +4,7 @@ const config = require("./ssm.config.js");
 
 const handler = async event => {
     let data = {};
-    for (let i = 1; i <= 11; i++) {
+    for (let i = 1; i <= 2; i++) {
         let key = "P" + i;
         data[key] = process.env["ENV_" + key];
     }
