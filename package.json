@@ -12,6 +12,6 @@
     "middy": "^0.30.4"
   },
   "devDependencies": {
-    "serverless": "^1.57.0"
+    "serverless": "^3.25.1"
   }
 }
